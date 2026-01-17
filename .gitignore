@@ -1,0 +1,16 @@
+cat <<EOF > .gitignore
+# Terraform
+.terraform/
+terraform.tfstate
+terraform.tfstate.backup
+*.tfvars
+
+# Kubernetes
+.kube/
+
+# Python venv
+virtual-env/
+
+# VSCode
+.vscode/
+EOF
